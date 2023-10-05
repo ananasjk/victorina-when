@@ -36,7 +36,7 @@ function formatDate(difference) {
     if ((seconds%10 == 1)&&(seconds != 11)) {
         second.innerHTML = seconds + " секунда"
     } else {
-        second.innerHTML = seconds + " секунд"
+        second.innerHTML = seconds + " секунды"
     }
 
 
