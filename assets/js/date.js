@@ -30,7 +30,7 @@ function formatDate(difference) {
     if ((minutes%10 == 1)&&(minutes != 11)) {
         minute.innerHTML = minutes + " минута"
     } else {
-        minute.innerHTML = minutes + " минут"
+        minute.innerHTML = minutes + " минуты"
     }
 
     if ((seconds%10 == 1)&&(seconds != 11)) {
